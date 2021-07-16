@@ -12,3 +12,8 @@ Para visualizar o projeto [Alurakut](https://alurakut-five-delta.vercel.app/) em
 
 * npm run dev 
 
+## Dependências
+
+* TOKEN - JWT: npm install jsonwebtoken
+* COOKIES: npm install nookies
+
