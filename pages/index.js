@@ -213,14 +213,14 @@ export async function getServerSideProps(context) {
 
   console.log('Usuário atenticado: ', isAuthenticated);
 
-    if(!isAuthenticated) {
-      return {
-        redirect: {
-          destination: '/login',
-          permanent: false,
-        }
-      }
-    }
+    // if(!isAuthenticated) {
+    //   return {
+    //     redirect: {
+    //       destination: '/login',
+    //       permanent: false,
+    //     }
+    //   }
+    // }
   return {
     props: {
       githubUser
