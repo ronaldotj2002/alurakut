@@ -1,11 +1,10 @@
 import React from 'react';
-import Router from 'next/router';
+import { useRouter } from 'next/router';
 import nookies from 'nookies';
-import {getServerSideProps} from './index';
 
 export default function LoginPage() {
 
-  const router = Router;
+  const router = useRouter();
   const [githubUser, setGithubUser] = React.useState('');
 
   return (
